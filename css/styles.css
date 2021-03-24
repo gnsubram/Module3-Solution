@@ -1,0 +1,91 @@
+/**  HEADER **/
+#header-nav {
+    background-color: grey;
+    border-radius: 0;
+    border: 2px solid black;
+    border-right: 1px solid black;
+    border-color: black;
+}
+.navbar-brand {
+    padding-top: 25px;
+}
+.navbar-brand h1 { /* Restaurant name */
+    color: black;
+    height: 5em;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+#nav-list {
+    border: black;
+    margin-top: 0;
+    margin-bottom: 0;
+    border: black;
+}
+#nav-list a {
+    color: black; 
+    background: white;
+    text-align: center;
+    border: 1px solid black;
+}
+#nav-list a:hover {
+  background: grey;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid black;
+}
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+}
+  
+
+body {
+    font-size: 16px;
+    color: black;
+    background-color: white;
+}
+.text-center {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#main-content h2 {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.row {
+    content: "";
+    clear: both;
+    display: table;
+    margin-top: 30px;
+}
+
+.row .name  {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
+    border: 1px solid black;
+    background: grey;
+  }
+
+
+
+.menu {
+    float: left;
+    width: 33.33%;
+    border: 2px solid black;
+    background-color: grey;
+    color: black;
+    width: 30%;
+    height: 180px;
+    margin-left: 30px;
+    position: relative;
+}
